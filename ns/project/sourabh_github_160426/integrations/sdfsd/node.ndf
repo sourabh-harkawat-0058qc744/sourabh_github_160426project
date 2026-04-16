@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Sourabh.Harkawat1@ibm.com</value>
-    <value name="createdDate">1776325538193</value>
-    <value name="lastModifiedDate">1776325538193</value>
+    <value name="lastModifiedBy">Sourabh.Harkawat1@ibm.com</value>
+    <value name="lastModifiedDate">1776325582308</value>
     <value name="displayName">sdfsd</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +69,26 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">LowerFSPackage</value>
+          <value name="groupName">LowerFSPackage;2.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">LowerFSPackage:lowerFS</value>
+          <value name="serviceName">LowerFSPackage:lowerFS</value>
+          <value name="displayName">lowerFS</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
