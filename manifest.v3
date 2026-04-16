@@ -10,18 +10,18 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="LowerFSPackage">4.123</value>
+    <value name="LowerFSPackage">2.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">8</value>
   <null name="description"/>
   <value name="created_date">16-04-2026 07:37:06 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-04-16T07:44:09.354902499Z</value>
+  <value name="lastUpdated">2026-04-16T07:45:39.185876513Z</value>
   <value name="wmProjectId">fl98f7f86ca6a34807a1280ed4d5a9af2c</value>
   <value name="creator">Sourabh Harkawat</value>
 </Values>
