@@ -7,11 +7,18 @@ packages:
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
+- name: LowerFSPackage
+  gitServerName: srcCtrl_github_Sourabh
+  gitUrl: https://github.com/sourabh-harkawat-0058QC744
+  gitUsername: sourabh-harkawat-0058QC744
+  gitBranch: testbranch
 services:
 - serviceName: project.sourabh_github_160426.integrations:json
   packages:
   - name: Sourabh_github_160426Project
     version: "1.0"
+  - name: LowerFSPackage
+    version: "2.2"
 - serviceName: pub.json:documentToJSON
   packages:
   - name: WmPublic
