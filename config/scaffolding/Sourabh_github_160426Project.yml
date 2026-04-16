@@ -1,0 +1,47 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Sourabh_github_160426Project
+  gitServerName: srcCtrl_github_Sourabh
+  gitUrl: https://github.com/sourabh-harkawat-0058QC744
+  gitUsername: sourabh-harkawat-0058QC744
+  gitBranch: main
+configurationVariables:
+  jdbc.Embedded-Database-Pool.waitingThread: "0"
+  jdbc.SAP-TxStore-Pool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/SAP-TxStore-Pool.log;ddtdbg.ProtocolTraceShowTime=true
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.Xref.failFastMode: true
+  jdbcfunc.ISDashboardStats.connPoolAlias: Embedded-Database-Pool
+  jdbc.SAP-TxStore-Pool.dbURL: jdbc:mysql://localhost:3306/SAPTRANSACTIONSTORE?useSSL=false&characterEncoding=utf-8&autoReconnect=true&maxReconnects=5&sessionVariables=wait_timeout=2147483
+  jdbcfunc.Xref.connPoolAlias: Embedded-Database-Pool
+  jdbc.Embedded-Database-Pool.userid: APP
+  jdbcfunc.ISInternal.connPoolAlias: Embedded-Database-Pool
+  jdbc.Embedded-Database-Pool.password: "{AES}Zcw2EXTJgNDVmVzJO2Y3Bw=="
+  jdbc.SAP-TxStore-Pool.userid: root
+  jdbc.Embedded-Database-Pool.snoopenabled: "false"
+  jdbc.SAP-TxStore-Pool.snoopenabled: "false"
+  jdbc.Embedded-Database-Pool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/Embedded-Database-Pool.log;ddtdbg.ProtocolTraceShowTime=true
+  jdbcfunc.ISInternal.failFastMode: true
+  jdbc.Embedded-Database-Pool.maxConns: "10"
+  jdbc.SAP-TxStore-Pool.waitingThread: "10"
+  jdbc.Embedded-Database-Pool.expireTime: "60000"
+  jdbc.Embedded-Database-Pool.useSSL: "false"
+  jdbc.Embedded-Database-Pool.minConns: "0"
+  jdbc.Embedded-Database-Pool.driverAlias: Embedded Database Driver
+  jdbc.Embedded-Database-Pool.spyparms: SpyAttributes=(log=(file)logs/spy/Embedded-Database-Pool.log;logTName=yes;timestamp=yes)
+  jdbc.Embedded-Database-Pool.dbURL: jdbc:derby:embedded;create=true
+  jdbc.SAP-TxStore-Pool.useSSL: "false"
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP-TxStore-Pool
+  jdbcfunc.ISDashboardStats.failFastMode: false
+  jdbc.Embedded-Database-Pool.spyenabled: "false"
+  jdbc.SAP-TxStore-Pool.poolThreshold: "0"
+  jdbc.SAP-TxStore-Pool.expireTime: "60000"
+  jdbc.SAP-TxStore-Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP-TxStore-Pool.log;logTName=yes;timestamp=yes)
+  jdbc.SAP-TxStore-Pool.minConns: "5"
+  jdbc.SAP-TxStore-Pool.description: Connection Pool for the SAP Transaction Store
+  jdbc.SAP-TxStore-Pool.spyenabled: "false"
+  jdbc.SAP-TxStore-Pool.maxConns: "10"
+  jdbc.Embedded-Database-Pool.poolThreshold: "0"
+  jdbc.SAP-TxStore-Pool.password: "{AES}nrGf3u7Wt20hFBGh5ZeEuQ=="
+  jdbc.SAP-TxStore-Pool.driverAlias: MySQL CC Driver
